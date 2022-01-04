@@ -1,17 +1,17 @@
 import "./App.css";
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+
 import "antd/dist/antd.css";
 import "./index.css";
-import { Layout, Menu, Card, Row, Col } from "antd";
+import { Layout, Card, Row, Col } from "antd";
 
-import { Icon, InlineIcon } from "@iconify/react";
+
 import Sidebar from "./components/Sidebar";
 import Desc from "./components/Desc";
 import Topbar from "./components/Topbar";
 import Statistics from "./components/Statistics";
 const {  Content } = Layout;
-const { SubMenu } = Menu;
+
 
 // CART STYLE
 const CardStyle = {
@@ -22,7 +22,7 @@ const CardStyle = {
 };
 
 function App() {
-  const [collapsed, setCollapsed] = useState(false);
+
   return (
     <div className="App">
       <Layout style={{ minHeight: "100vh" }}>

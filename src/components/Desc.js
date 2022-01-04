@@ -1,5 +1,5 @@
-import React,{useState,useEffect} from 'react';
-import { Layout, Menu, Card, Row, Col } from "antd";
+import React from 'react';
+import { Card } from "antd";
 const Desc = () => {
   const CardStyle = {
     backgroundColor: "#283046",

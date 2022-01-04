@@ -1,6 +1,6 @@
 import React from "react";
 import "../index.css";
-import { Layout, Menu, Card, Row, Col, Space, Button, Badge } from "antd";
+import { Card, Space, Badge } from "antd";
 const Statistics = () => {
   const CardStyle = {
     backgroundColor: "#283046",

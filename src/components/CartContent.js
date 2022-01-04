@@ -1,7 +1,6 @@
 import React, { useState,useEffect } from "react";
 import { Menu, Badge, Popover, Divider, Button } from "antd";
 import { Icon } from "@iconify/react";
-import API from "./DATA";
 const ButtonGroup = Button.Group;
 
 

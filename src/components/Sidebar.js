@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "antd/dist/antd.css";
-import { Layout, Menu, Card, Row, Badge, Col } from "antd";
+import { Layout, Menu, Badge } from "antd";
 import "../index.css";
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 
-const { Header, Content, Footer, Sider } = Layout;
+const { Sider } = Layout;
 const { SubMenu } = Menu;
 
 const menuClick = () => {
@@ -12,7 +12,7 @@ const menuClick = () => {
 };
 
 const Sidebar = () => {
-  const [collapsed, setCollapsed] = useState(false);
+  
 
   return (
     <div style={{ backgroundColor: "#283046", }}>
